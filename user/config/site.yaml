@@ -1,0 +1,58 @@
+title: Monsieur
+author:
+  name: 'Thomas Lefebvre'
+  email: thomas.lfbvr@gmail.com
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'Just another site for you to travel'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+redirects:
+  /redirect-test: /
+  '/old/(.*)': /new/$1
+routes:
+  /something/else: /blog/sample-3
+  '/new/(.*)': /blog/$1
+blog:
+  route: /blog
+header:
+  title: 'Bonjour.'
+  description: 'Bienvenue sur mon site, je suis <span>étudiant en informatique</span>, <span>photographe amateur</span> et <span>passionné de jeux vidéo</span> et vous pouvez en <a class="smoothscroll" href="#about">apprendre plus</a>.'
+copyright:
+  -
+    line: 'Copyright 2015 - Thomas Lefebvre'
+social:
+  -
+    url: '#'
+    icon: facebook
+  -
+    url: '#'
+    icon: twitter
+  -
+    url: '#'
+    icon: google-plus
+  -
+    url: '#'
+    icon: linkedin
+  -
+    url: '#'
+    icon: instagram
+  -
+    url: '#'
+    icon: dribbble
+  -
+    url: '#'
+    icon: skype
+twitter:
+  id: '657554810648948736'
+  domId: tw-widget1
+  maxTweets: 3
+  enableLinks: 'true'
+  showInteraction: 'false'
+  showImages: 'false'
+  showUser: 'false'

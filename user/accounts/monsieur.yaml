@@ -1,0 +1,10 @@
+email: thomas.lfbvr@gmail.com
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+fullname: 'Thomas Lefebvre'
+title: CuriculumVitae
+hashed_password: $2y$10$kyjydqWyOLpAh6JplDUyuOCSzdLXtBf1MdZQjtYVxXjVUUak5ky7G
